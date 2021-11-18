@@ -1,3 +1,7 @@
 /target
 !Cargo.lock
+<<<<<<< HEAD
 !README.md
+=======
+!README.md
+>>>>>>> ea4b004b29a573762e445d10240b9eae9589b4c0
