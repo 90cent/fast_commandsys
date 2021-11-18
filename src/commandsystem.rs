@@ -60,7 +60,7 @@ pub mod logging {
 
     }
 
-    pub fn log(level: LogLevel,message: String) {
+    pub fn log(level: LogLevel,message: String) {  // IMPORTANT: Include fmt::Display for Log to make it better and simpler
         let color = match level {
             LogLevel::NORMAL => {
                 Log {
