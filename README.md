@@ -1,5 +1,5 @@
 # fast_commandsys
-## A library for creating efficent command systems. ##
+## A library that makes Command managment 100 times easier ##
 
 >> More Coming Soon
 
