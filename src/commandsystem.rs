@@ -81,7 +81,7 @@ pub mod commandbase {
 
             &COMMANDS.lock().unwrap().insert(name, command);
         }
-
+        /*
         pub fn get(name: String) -> Box<T> {
             lazy_static::initialize(&COMMANDS);
 
@@ -91,7 +91,7 @@ pub mod commandbase {
             };
 
             return c;
-        }
+        }*/
     }
 }
 
