@@ -82,7 +82,7 @@ pub mod commandbase {
             &COMMANDS.lock().unwrap().insert(name, command);
         }
 
-        pub fn get(name: String) -> Box<> {
+        pub fn get(name: String) -> Box<T> {
             lazy_static::initialize(&COMMANDS);
 
             let c = match &COMMANDS.lock().unwrap().get(&name) {
