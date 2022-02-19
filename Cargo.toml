@@ -3,10 +3,10 @@ name = "fast_commandsys"
 version = "0.1.2"
 edition = "2021"
 
-[lib]
-crate-type = ["cdylib"]
-name = "fast_commandsys"
-path = "src/lib.rs"
+#[lib]
+#crate-type = ["cdylib"]
+#name = "fast_commandsys"
+#path = "src/lib.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
